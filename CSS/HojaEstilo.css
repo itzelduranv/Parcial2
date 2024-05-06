@@ -1,0 +1,123 @@
+body {
+    background-color: #fbfafc;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 10px; /*para los 4 lados */
+    margin-bottom: 10px;  /*abajo en relación al siguiente elemento*/
+    background-color: #f9f9f9;
+    text-align: center;
+    border: 1px solid #ccc0cc;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos sólo para header */
+header {
+    text-align: left;
+    background-color: #f9f9f9;
+    color:rgb(85, 33, 121);
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+
+
+header #Barra{
+    margin-right: 50px; 
+    margin-bottom: 20px; 
+}
+
+header #Barra ul{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    background-color: #f9f9f9;
+    line-height: 5px;
+    margin-right: 20px;
+    
+}
+
+
+#Barra ul li {
+    display: inline;
+    align-items: center;
+    background-color: #f9f9f9;
+    
+}
+
+#Barra ul li a{
+    background-color: #f9f9f9;
+    text-decoration: none;
+    font-family: Arial;
+    color:rgb(85, 33, 121);
+    font-size:12px;
+    margin-right: 20px;
+}
+
+#Titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+}
+
+#SEPARADOR{
+    background-color: #cf8eee;
+    
+}
+
+#INFO{
+    background-color: #cf8eee;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#INFO2{
+    background-color: #cf8eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    margin-right: 10px;
+    width: 100%; /* Ancho del contenedor */
+    height: 300px;
+           
+             
+}
+
+#container6{
+    width: 90%; /* Ancho del contenedor */
+    height: 250px;
+    margin: 0 auto;
+    
+}
+
+.modal-header{
+    background-color: #cf8eee;
+}
+
+.modal-content {
+    position: absolute;
+            left: 50%;
+            top: 0%;
+            transform: translate(-50%, -0%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    width: 200%; 
+    margin-right: 100px;           
+}
+
+.btn-primary{
+    background-color: #6a0b96;
+}
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+}
