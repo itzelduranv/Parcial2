@@ -6,7 +6,7 @@
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>UrbanUtopía</title>
+    <title>InnovaTech</title>
     <link rel="shortcut icon" href="../IMG/u.png">
     <link rel="stylesheet" type="text/css" href="../CSS/HojaEstilo.css">
     
@@ -37,13 +37,13 @@
           <!-- The slideshow/carousel -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img width="400" height="700" src="../IMG/carrusel1.png" alt="Carrusel 1" class="d-block w-100">
+              <img width="400" height="700" src="../IMG/Carrusel1.png" alt="Carrusel 1" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img width="400" height="700" src="../IMG/carrusel2.png" alt="Carrusel 2" class="d-block w-100">
+              <img width="400" height="700" src="../IMG/Carrusel2.png" alt="Carrusel 2" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img width="400" height="700" src="../IMG/carrusel3.png" alt="Carrusel 3" class="d-block w-100">
+              <img width="400" height="700" src="../IMG/Carrusel3.png" alt="Carrusel 3" class="d-block w-100">
             </div>
           </div>
       
@@ -103,31 +103,106 @@
                       <li>Instagram, Facebook</li>
                     </ol>
                     <br>
-                    Las API pueden funcionar de cuatro maneras diferentes, según el momento y el motivo de su creación.
+                    Las API pueden funcionar de maneras diferentes, según el momento y el motivo de su creación.
                     <br>
                     <br>
-                    <h5>API de SOAP </h5>
-                    Estas API utilizan el protocolo simple de acceso a objetos. El cliente y el servidor intercambian mensajes mediante XML. Se trata de una API menos flexible que era más popular en el pasado.
+                    <div class="infocita">
+                    <h4 class="Subtairols">API de HTTPS</h4>
+                    Una API de HTTPS (Protocolo Seguro de Transferencia de Hipertexto) es una interfaz de programación de aplicaciones que utiliza el protocolo HTTPS para permitir la comunicación segura entre clientes y servidores en la web. HTTPS es la versión segura de HTTP, donde los datos se cifran utilizando TLS (Transport Layer Security) o SSL (Secure Sockets Layer) para proteger la integridad y la confidencialidad de la información transmitida
                     <br>
                     <br>
-                    <h5>API de RPC</h5>
-                    Estas API se denominan llamadas a procedimientos remotos. El cliente completa una función (o procedimiento) en el servidor, y el servidor devuelve el resultado al cliente.
+                    Principales componentes y características de una API de HTTPS:
+                    <br>
+                    <li><b>Protocolo seguro</b></li>
+                    Utiliza certificados SSL/TLS para cifrar los datos intercambiados entre el cliente (por ejemplo, un navegador web) y el servidor. Esto protege contra ataques de interceptación y otros tipos de espionaje de datos.
+                    <br>
+                    <li><b>Autenticación</b></li>
+                    Aseguran que el servidor es auténtico y que la conexión es segura. El servidor presenta un certificado digital emitido por una autoridad certificadora confiable.
+                    <br>
+                    <li><b>Cifrado</b></li>
+                    Protocolos que garantizan que los datos transmitidos no puedan ser leídos por terceros. TLS es la versión más moderna y segura en comparación con SSL.
+                    <br>
+                    <li><b>Integridad de los datos</b></li>
+                    Aseguran que los datos no han sido alterados durante la transmisión. Si los datos han sido modificados, la suma de verificación o el hash serán diferentes, indicando corrupción o manipulación.
+                    <br>
+                    <li><b>Encabezados HTTP</b></li>
+                    Incluye tokens de autenticación, como JWT (JSON Web Token), en los encabezados HTTP para identificar y autorizar usuarios.
+                    <br>
+                  </div>
+
+                    <br>
+                    <h4 class="Subtairols">API de SOAP</h5>
+                      Una API de SOAP (Simple Object Access Protocol) es un protocolo basado en XML para intercambiar información estructurada en la implementación de servicios web en redes informáticas. Usa XML para sus mensajes y puede operar sobre varios protocolos de transporte, incluyendo HTTP, SMTP, y otros. 
                     <br>
                     <br>
-                    <h5>API de WebSocket</h5>
-                    La API de WebSocket es otro desarrollo moderno de la API web que utiliza objetos JSON para transmitir datos. La API de WebSocket admite la comunicación bidireccional entre las aplicaciones cliente y el servidor. El servidor puede enviar mensajes de devolución de llamada a los clientes conectados, por lo que es más eficiente que la API de REST.
+                    Características de SOAP:
+                    <br>
+                    <li><b>Protocolo basado en XMl</b></li>
+                    Todos los mensajes de SOAP se formatean en XML.
+                    <br>
+                    <li><b>Transporte independiente</b></li>
+                    SOAP puede utilizar varios protocolos de transporte, como HTTP, SMTP, TCP, etc.
+                    <br>
+                    <li><b>Estandares y extensibilidad</b></li>
+                    SOAP es un estándar del W3C y es extensible, permitiendo la incorporación de módulos adicionales de seguridad, transacciones, etc.
+                    <br>
+                    <li><b>WS-Web Services Specifications</b></li>
+                    SOAP se integra con varias especificaciones WS- para características adicionales como seguridad (WS-Security), confiabilidad (WS-ReliableMessaging), y transacciones (WS-AtomicTransaction).
                     <br>
                     <br>
-                    <h5>API de REST</h5>
-                    Estas son las API más populares y flexibles que se encuentran en la web actualmente. El cliente envía las solicitudes al servidor como datos. 
+                    
+                    <div class="infocita">
+                    <h4 class="Subtairols">API de REST</h4>
+                    Una API REST (Representational State Transfer) es un estilo de arquitectura de software que utiliza las operaciones estándar de HTTP para manipular recursos en una aplicación web. Las API REST son ampliamente utilizadas debido a su simplicidad y flexibilidad, permitiendo la comunicación entre clientes y servidores de manera eficiente.
                     <br>
                     <br>
+                    Características de REST:
+                    <br>
+                    <li><b>Uso de HTTP</b></li>
+                    Las API RESTful utilizan los métodos HTTP estándar (GET, POST, PUT, DELETE, etc.) para operar con los recursos.
+                    <br>
+                    <li><b>Recursos</b></li>
+                    Los recursos son entidades o datos que se exponen a través de la API, y se identifican mediante URLs.
+                    <br>
+                    <li><b>Representaciones</b></li>
+                    Los recursos se representan normalmente en formatos como JSON o XML.
+                    <br>
+                    <li><b>Stateless</b></li>
+                    Cada solicitud del cliente al servidor debe contener toda la información necesaria para entender y procesar la solicitud. El servidor no debe almacenar el estado del cliente entre solicitudes.
+                    <br>
+                    <li><b>Cacheable</b></li>
+                    Las respuestas deben ser definidas como cacheables o no, para mejorar el rendimiento.
+                    <br>
+                    <li><b>Cliente-servidor</b></li>
+                    El cliente y el servidor deben ser independientes y permitir una evolución separada.
+                    <br>
+                  </div>
+                  
+                  <br>
+                    <h4 class="Subtairols">API de JWT</h4>
+                    JSON Web Tokens (JWT) son una manera compacta y segura de transmitir información entre partes como un objeto JSON. Son comúnmente utilizados en la autenticación y autorización de usuarios en aplicaciones web.
+                    <br>
+                    <br>
+                    Características de JWT:
+                    <br>
+                    <li><b>Compacto</b></li>
+                    JWT se representa como una cadena de texto compacta, lo que facilita su uso en URLs, encabezados HTTP, y almacenamiento de datos.
+                    <br>
+                    <li><b>Autocontenido</b></li>
+                    Un JWT puede contener toda la información necesaria para autenticar un usuario sin necesidad de buscar en una base de datos adicional.
+                    <br>
+                    <li><b>Seguro</b></li>
+                    Los JWT pueden ser firmados utilizando un algoritmo de firma digital (como HMAC o RSA) para asegurar que los datos no han sido manipulados.
+                    <br>
+                    <br>
+                  </div>
+                  <br>
                     <center>
                     <img width="800px" height="400px"  src="../IMG/API.png">
                   </center>
 
                   
-                  </div>
+                  
             
                   <!-- Modal footer -->
                   <div class="modal-footer">
@@ -172,7 +247,8 @@
                       <img width="800px" height="400px"  src="../IMG/Micro.jpg">
                     </center>
                     <br>
-                    Caracteristicas:
+                    <div class="infocita"
+                    <p>Caracteristicas:</p>
                     <ol>
                     <li><b>Descomposición en servicios pequeños:</b> En lugar de desarrollar una aplicación monolítica, los microservicios dividen la funcionalidad en servicios pequeños y autónomos,
                        cada uno ejecutando un proceso específico</li>
@@ -192,6 +268,7 @@
                     <br>
                     <li><b>Desafíos de implementación:</b> Aunque los microservicios ofrecen numerosos beneficios, también plantean desafíos en áreas como la complejidad de la gestión de la arquitectura, la coordinación entre servicios y la monitorización de la salud del sistema</li>
                   </ol>
+                  </div>
                   <br>
                   En resumen, los microservicios son una arquitectura de software que ofrece flexibilidad, escalabilidad y mantenibilidad al dividir una aplicación en servicios independientes y autónomos. Sin embargo, su implementación requiere una planificación cuidadosa y la gestión de ciertos desafíos técnicos y organizativos.
                   Las API pueden funcionar de cuatro maneras diferentes, según el momento y el motivo de su creación.
@@ -238,10 +315,14 @@
                 <div class="modal-body">
 
                   <center>
-                    <img width="800px" height="400px"  src="../IMG/Web.png">
+                    <img width="800px" height="400px"  src="../IMG/web.png">
                   </center>
                   <br>
-                <h5>Proceso de desarrollo de una API</h5>
+                <p> El termino API que son las siglas de <b>A</b>pplication <b>P</b>rogramming <b>I</b>nterface.
+                  Es un conjunto de reglas y definiciones que permite que diferentes aplicaciones se comuniquen entre sí. En términos simples, una API especifica cómo interactuar con un sistema de software, 
+                  permitiendo que otras aplicaciones accedan a sus funciones, datos o servicios de manera controlada y segura.</p>
+                <div class="infocita">
+                <h4 class="Subtairols">Proceso de desarrollo de una API</h4>
                   
       
                   <ol>
@@ -282,10 +363,52 @@
                       publicar la API para monetizarla en algún mercado de APIs en donde
                       los desarrolladores compran y vendan</li>
                     </ol>
+                  </div>
                 <br>
+
+                <h4 class="Subtairols">Recomendaciones</h4>
+                <ol>
+                  <li><b>Definir los objetivos de la API: </b> Tener una comprensión clara de los problemas 
+                    que intentará resolver y los usuarios a los que servirá.</li>
+                     <br>
+                  <li><b>Seguir estandares y convenciones: </b>Esto facilita la comprensión y el uso de la API por parte de otros 
+                    desarrolladores, por ejemplo seguir los principios de REST, utilizar 
+                    JSON o XML como formatos de intercambio de datos,etc.                    
+                  </li>
+                     <br>
+                  <li><b>Documentar la API de manera exhaustiva: </b>Es esencial para que otros desarrolladores 
+                    puedan entender cómo usarla correctamente, se pueden utilizar 
+                    herramientas como Swagger o Postman para generar documentación 
+                    automáticamente</li>
+                     <br>
+                  <li><b>Priorizar la seguridad: </b> Se deben implementar medidas de 
+                    seguridad como autenticación y autorización para proteger la API de 
+                    accesos no autorizados.</li>
+                     <br>
+                  <li><b>Versionar la API:</b> A medida que la API evoluciona, es importante mantener la 
+                    compatibilidad hacia atrás, versionar la API permite introducir cambios 
+                    sin afectar a los usuarios existentes</li>
+                  <br>
+                    </ol>
+                <div class="infocita">
                 Una API web promueve la interoperabilidad entre sistemas, brinda flexibilidad para la creación de nuevas aplicaciones y servicios, facilita la escalabilidad de los sistemas, fomenta la reutilización de código y simplifica la integración con sistemas externos. En resumen, una API bien diseñada y desarrollada puede ser un
                  activo invaluable para cualquier proyecto de software, permitiendo la construcción de aplicaciones robustas, ágiles e interoperables.
-                <br>
+                </div>
+                 <br>
+                 <h4 class="Subtairols">Importancia y utilidad</h4>
+                
+                  <li><b>Interconeción de sistemas: </b>Permiten la comunicación y la integración entre diferentes sistemas y plataformas, lo que facilita la interoperabilidad y la colaboración entre aplicaciones. </li>
+                     <br>
+                  <li><b>Acceso a datos y funcionalidades: </b>Proporcionan acceso a datos y funcionalidades específicas de una aplicación, lo que permite a otros desarrolladores construir sobre esa funcionalidad o crear nuevas aplicaciones que utilicen esos datos.
+                  </li>
+                     <br>
+                  <li><b>Construcción de ecosistemas: </b> Las empresas pueden construir ecosistemas de aplicaciones alrededor de su API, fomentando la innovación y el desarrollo de nuevas soluciones por parte de terceros.</li>
+                     <br>
+                  <li><b>Escalabilidad: </b> Las empresas pueden escalar su negocio permitiendo que múltiples clientes accedan a sus servicios de manera simultánea.</li>
+                     <br>
+                  <li><b>Facilita el desarrollo agil: </b>  Al separar la lógica del servidor y el cliente, las Web APIs permiten un desarrollo más ágil, donde equipos diferentes pueden trabajar de forma independiente en el frontend y el backend.</li>
+                  <br>
+                    
                 <br>
                 <center>
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/IwnIxk8DdHs?si=BDoKiy9DbcA8VffP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -328,12 +451,18 @@
                     <p>Los contenedores son paquetes ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de 
                       entornos de ejecución de ciertos lenguajes de programación y bibliotecas indispensables para ejecutar los servicios de software.</p>
                       <br>
+
+                      <div class="infocita">
                       <p>Los contenedores constituyen un mecanismo de empaquetado lógico en el que las aplicaciones pueden extraerse del entorno en que realmente se ejecutan. Esta desvinculación facilita el despliegue uniforme de las aplicaciones 
                         basadas en ellos con independencia de que el entorno sea un centro de datos privado, la nube pública o el portátil personal de un desarrollador.</p>
-                    <center>
+                      </div>
+                      <br>
+                        <center>
                       <img width="800px" height="400px"  src="../IMG/contenedor.jpg">
                     </center>
                     <br>
+
+                    <div class="infocita">
                   <p>Desarrollo ágil<br>
                     Los contenedores permiten que los desarrolladores avancen con mucha más rapidez, ya que se pueden despreocupar de las dependencias y los entornos.
                     <br>
@@ -342,7 +471,8 @@
                     <br>
                     <br>Ejecución en cualquier lugar<br>
                     Los contenedores se pueden ejecutar casi en cualquier lugar. Donde quieras ejecutar el software, podrás usar contenedores</p>
-                  <br>
+                </div>
+                <br>
                   <p> En la virtualización tradicional, ya sea en las instalaciones o en la nube, se aprovecha un hipervisor para virtualizar el hardware físico. Luego, cada máquina virtual contiene un sistema operativo invitado, una copia virtual del hardware que el sistema operativo necesita para ejecutarse, junto con una aplicación y sus bibliotecas y dependencias asociadas.
                     <br>
                     En lugar de virtualizar el hardware subyacente, los contenedores virtualizan el sistema operativo (normalmente Linux) para que cada contenedor individual contenga solo la aplicación y sus bibliotecas y dependencias. La ausencia del sistema operativo invitado es el motivo por el que los contenedores son tan ligeros y, por lo tanto, rápidos y portátiles.</p>
@@ -386,9 +516,10 @@
 
                   <p>
                     El desarrollo de aplicaciones para la nube, también conocido como desarrollo de aplicaciones en la nube o desarrollo de software en la nube, se refiere al proceso de crear aplicaciones que se ejecutan 
-                    en servidores remotos y se entregan a través de internet. Aquí hay algunos pasos clave en el proceso de desarrollo de aplicaciones para la nube:</p>
-
-                <h5>Proceso de desarrollo de una app web:</h5>
+                    en servidores remotos y se entregan a través de internet.  Esta tecnología evita que las empresas tengan que encargarse de aprovisionar, configurar o gestionar los recursos y permite que paguen únicamente por los que usen. Aquí hay algunos pasos clave en el proceso de desarrollo de aplicaciones para la nube:</p>
+                    <br>
+                <div class="infocita">
+                <h4 class="Subtairols">Proceso de desarrollo de una app para la nube:</h4>
                   
       
                   <ol>
@@ -414,6 +545,7 @@
                       <br>
                    
                     </ol>
+                  </div>
                 <br>
                 El desarrollo de aplicaciones para la nube implica adaptar el proceso de desarrollo de software tradicional para aprovechar las ventajas y capacidades de la computación en la nube, como la escalabilidad, la disponibilidad y la flexibilidad.
                 <br>
@@ -421,6 +553,65 @@
                 <center>
                   <img width="800px" height="400px"  src="../IMG/nube.jpg">
               </center>
+              <br>
+    
+              <div class="infocita">
+              <h4 class="Subtairols">¿Cómo funciona la nube?</h4>
+              Las empresas o personas físicas pagan para acceder a un grupo virtual de recursos compartidos, incluidos servicios de computación, almacenamiento y redes, que se encuentran en servidores remotos propiedad de proveedores de servicios y gestionados por ellos. 
+              <br>
+              <br>
+              Es decir, utiliza una red (normalmente, Internet) para conectar a los usuarios a una plataforma en la nube donde solicitan y acceden a servicios informáticos alquilados. Un servidor central gestiona toda la comunicación entre los dispositivos y los servidores de cliente para facilitar el intercambio de datos. Las funciones de seguridad y privacidad son componentes habituales para mantener la seguridad de esta información.  
+               </div>
+
+               <br>
+               <br>
+               <h4 class="Subtairols">Modelos de despliegue</h4>
+               <li><b>Nubes públicas: </b> Las ejecutan proveedores de servicios en la nube externos. Ofrecen recursos de computación, de almacenamiento y de red por Internet, lo que permite a las empresas acceder a recursos bajo demanda compartidos en función de sus requisitos únicos y de sus objetivos empresariales.</li>
+                 <br>
+              <li><b>Nubes privadas: </b>Se crean, gestionan y pertenecen a una sola organización, y se alojan de forma privada en sus propios centros de datos, lo que comúnmente se denomina "on-premise". Proporcionan más control, seguridad y gestión de datos, al mismo tiempo que permiten que los usuarios internos se beneficien de un conjunto compartido de recursos de computación, almacenamiento y redes.
+              </li>
+                 <br>
+              <li><b>Nubes híbridas: </b>Combinan modelos de nube pública y privada con los que las empresas pueden aprovechar los servicios de nube pública y mantener las funciones de cumplimiento y seguridad habituales. en arquitecturas de nube privada.</li>
+                 <br>
+                <br>
+                 <div class="infocita">
+                 <h4 class="Subtairols">Tipos comunes de aplicaciones que se desarrollan en la nube </h4>
+                 <b>Aplicaciones Web</b> 
+                 <br>
+                 <p>Se ejecutan en un navegador web y no requieren que el usuario descargue ni instale software adicional.  Pueden ofrecer funcionalidades simples o complejas y son accesibles desde cualquier dispositivo con conexión a internet. </p>
+                <br>
+                <b>Aplicaciones Moviles</b> 
+                <br>
+                <p>Pueden almacenar datos y procesar tareas en servidores remotos en lugar de en el dispositivo del usuario. Esto permite que las aplicaciones móviles accedan a recursos adicionales y se integren con otras aplicaciones y servicios en la nube.</p>
+               <br>
+               <b>Aplicaciones Empresariales</b> 
+                <br>
+                <p>Proporcionan herramientas y servicios para empresas, como recursos de TI, gestión de recursos humanos, contabilidad, CRM (Customer Relationship Management), ERP (Enterprise Resource Planning), entre otros. Estas aplicaciones permiten a las empresas escalar y gestionar sus operaciones de manera más eficiente.</p>
+               <br>
+               <b>Aplicaciones de Almacenamiento y Colaboración</b> 
+                <br>
+                <p>Permiten a los usuarios almacenar, compartir y sincronizar archivos y datos en servidores remotos. Esto facilita la colaboración entre equipos distribuidos geográficamente y el acceso a archivos desde cualquier lugar y dispositivo.</p>
+               <br>
+               <b>Aplicaciones de Inteligencia Artificial y Aprendizaje Automático</b> 
+               <br>
+               <p>Utilizan recursos en la nube para procesar grandes volúmenes de datos y entrenar modelos de aprendizaje automático e inteligencia artificial. Pueden ofrecer funcionalidades como análisis de datos, reconocimiento de patrones, recomendaciones personalizadas, procesamiento de lenguaje natural, etc.</p>
+              <br>
+              <b>Aplicaciones IoT (Internet de las cosas)</b> 
+              <br>
+              <p>Recopilan datos de dispositivos conectados a internet, como sensores, dispositivos domésticos inteligentes, vehículos, etc., y los procesan en la nube para análisis, monitoreo y control remoto. Esto permite crear soluciones inteligentes y conectadas para una variedad de industrias y aplicaciones.</p>
+              <br>
+              <b>Aplicaciones de Juegos</b> 
+              <br>
+              <p>Utilizan recursos de procesamiento y almacenamiento remotos para ejecutar juegos complejos y gráficamente intensivos en dispositivos con recursos limitados, como teléfonos móviles o dispositivos de transmisión de juegos.</p>
+              <br>
+              <b>Aplicaciones de Salud y Bienestar</b> 
+              <br>
+              <p>Proporcionan servicios relacionados con la salud y el bienestar, como seguimiento de la actividad física, monitoreo de la salud, telemedicina, gestión de registros médicos electrónicos, etc. La computación en la nube permite almacenar y procesar grandes volúmenes de datos de salud de manera segura y escalable.</p>
+                </div>
+                <br>
+                <center> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IciVhWQ8npw?si=Y2reS6iZbutCF9FX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </center>
               </div>
           
                 <!-- Modal footer -->
@@ -465,33 +656,90 @@
               <!-- Modal body -->
               <div class="modal-body">
 
-                <p>
-                  ASP.NET amplía la plataforma .NET con herramientas y bibliotecas específicas para compilar aplicaciones web.
-                  Estas son algunas cosas que ASP.NET agrega a la plataforma .NET:</p>
-                  <br>
-                  <ol>
-                    <li>Marco base para procesar solicitudes web en C# o F#</li>
-                    <br>
-                    <li>Sintaxis de plantillas de páginas web, conocida como Razor, para crear páginas web dinámicas con C#</li>
-                    <br>
-                    <li>Bibliotecas para modelos web comunes, como El controlador de vista de modelos (MVC)</li>
+                <h4 class="Subtairols">¿Qué es ASP.NET Core?</h4>
+                    <p>ASP.NET Core es un marco de desarrollo de aplicaciones web de código abierto y multiplataforma desarrollado por Microsoft. Es una evolución de ASP.NET, el marco de desarrollo web de Microsoft que ha sido utilizado durante muchos años para construir aplicaciones web en la plataforma Windows.
+
+                      ASP.NET Core fue diseñado para ser modular, ligero y de alto rendimiento, lo que lo hace adecuado para desarrollar aplicaciones web modernas y escalables. </p>
                       <br>
-                      <li>Sistema de autenticación que incluye bibliotecas, una base de datos y páginas de plantilla para controlar inicios de sesión, incluida la autenticación multifactor y la autenticación externa con Google, X, y más</li>
-                      <br>
-                      <li>Extensiones del editor para proporcionar resaltado de sintaxis, finalización de código y otras funciones específicas para desarrollar páginas web</li>
-                    <br>
-                    <br>
+
+                
                     <center>
                       <img width="800px" height="400px"  src="../IMG/asp.jpg">
                   </center>
-                    <h5>¿Qué es ASP.NET Core?</h5>
-                    <p>ASP.NET Core es la versión de código abierto y multiplataforma de ASP.NET. Debería usar ASP.NET Core para todas las aplicaciones nuevas. Todos los tutoriales de este sitio usan ASP.NET Core. <br>
+                  <p>
+                    ASP.NET amplía la plataforma .NET con herramientas y bibliotecas específicas para compilar aplicaciones web.
+                    Estas son algunas cosas que ASP.NET agrega a la plataforma .NET:</p>
+                    <br>
+                    <ol>
+                      <li>Marco base para procesar solicitudes web en C# o F#</li>
+                      
+                      <li>Sintaxis de plantillas de páginas web, conocida como Razor, para crear páginas web dinámicas con C#</li>
+                      
+                      <li>Bibliotecas para modelos web comunes, como El controlador de vista de modelos (MVC)</li>
+                        
+                        <li>Sistema de autenticación que incluye bibliotecas, una base de datos y páginas de plantilla para controlar inicios de sesión, incluida la autenticación multifactor y la autenticación externa con Google, X, y más</li>
+                        
+                        <li>Extensiones del editor para proporcionar resaltado de sintaxis, finalización de código y otras funciones específicas para desarrollar páginas web</li>
+                      </ol>
+                        <br>
+                      <br>
+                    
+                    <div class="infocita">
+                      <h4 class="Subtairols">¿Qué es Web Forms?</h4>
+                      Los formularios Web Forms son páginas que los usuarios solicitan mediante su explorador. Estas páginas se pueden escribir con una combinación de HTML, script de cliente, controles de servidor y código de servidor. Cuando los usuarios solicitan una página, el marco se compila y ejecuta en el servidor y luego el marco genera el marcado HTML que el explorador puede representar. Una página de ASP.NET Web Forms presenta información al usuario en cualquier dispositivo cliente o explorador.
+                      <br>
+                      <br>
+                      <li>Se basa en la tecnología de Microsoft ASP.NET, en la que el código que se ejecuta en el servidor genera dinámicamente la salida de la página web en el explorador o el dispositivo cliente.</li>
+                      
+                      <li>Es compatible con cualquier explorador o dispositivo móvil. Una página web de ASP.NET representa automáticamente el código HTML compatible con el explorador correcto para características como estilos, diseño, etc.</li>
+                      
+                      <li>Se admite con cualquier lenguaje compatible con Common Language Runtime de .NET, como Microsoft Visual Basic y Microsoft Visual C#</li>
+                        
+                        <li>Se basa en Microsoft .NET Framework. Esto proporciona todas las ventajas del marco, incluido un entorno administrado, seguridad de tipos y herencia.</li>
+                        
+                        <li>Es flexible porque puede agregar en ellos controles creados por el usuario y de terceros.</li>
+                      <br>
+                     </div>
+                      <br>
+                      <br>
+                    <h4 class="Subtairols">Windows Communication Foundation (WCF) </h4>
+                    Marco para crear aplicaciones orientadas a servicios. Con WCF, es posible enviar datos como mensajes asincrónicos de un punto de conexión de servicio a otro. Un extremo de servicio puede formar parte de un servicio disponible continuamente hospedado por IIS, o puede ser un servicio hospedado en una aplicación. Un extremo puede ser un cliente de un servicio que solicita datos de un extremo de servicio. Los mensajes pueden ser tan simples como un carácter o una palabra que se envía como XML, o tan complejos como una secuencia de datos binarios.
+                    <br>
+                    <br>
+                    <h6><b>Algunas caracteristicas</b></h6>
+                    <ul>
+                        <li>Orientación a servicios: La arquitectura orientada a servicios es el uso de servicios web para enviar y recibir datos. Los servicios tienen la ventaja general de estar débilmente acoplados entre una aplicación y otra en lugar de incluidos en el código. Una relación de acoplamiento débil implica que cualquier cliente creado en cualquier plataforma puede conectar con cualquier servicio siempre y cuando se cumplan los contratos esenciales. </li>
+                        <li>Interoperabilidad: Implementa estándares del sector modernos para la interoperabilidad de los servicios web. </li>
+                        <li>Varios patrones de mensaje: El más común es el de solicitud/respuesta, en que un extremo solicita datos de otro extremo. y el otro extremo responde. Existen otros patrones, como un mensaje unidireccional, en que un único extremo envía un mensaje sin esperar ninguna respuesta. Un patrón más complejo es el patrón de intercambio dúplex donde dos extremos establecen una conexión y envían datos hacia delante y hacia atrás, similar a un programa de mensajería instantánea.</li>
+                        <li>Metadatos de servicios: Admite la publicación de metadatos de servicios con los formatos especificados en los estándares de la industria, como WSDL, Esquema XML y WS-Policy. Estos metadatos pueden utilizarse para generar y configurar clientes de forma automática para el acceso a los servicios de WCF. </li>
+                        <li>Contratos de datos: Dado que WCF se compila con NET Framework, también incluye métodos con código sencillo para proporcionar los contratos que quiere aplicar. Uno de los tipos de contrato universales es el contrato de datos.  </li>
+                        <li>Seguridad: Es posible cifrar los mensajes para proteger la privacidad, así como obligar a los usuarios a que se autentiquen antes de permitirles recibir mensajes. La seguridad puede implementarse utilizando estándares conocidos como SSL o WS-SecureConversation.</li>
+                        <li>Transactions: WCF también admite las transacciones que usan uno de los tres modelos de transacción: las transacciones WS-Atomic, las API del espacio de nombres System.Transactions y el Coordinador de transacciones distribuidas de Microsoft. </li>
+                  </ul>
+                    <br>
+                  <br>
+                  
+                  <div class="infocita">
+                  <h4 class="Subtairols">Modelo Vista Controlador MVC</h4>
+                  El patrón arquitectónico de Modelo-Vista-Controlador (MVC) separa una aplicación en tres componentes principales: el modelo, la vista y el controlador. El marco de MVC de ASP.NET proporciona una alternativa al patrón de ASP.NET Web Forms para crear aplicaciones web basadas en MVC. El marco de ASP.NET MVC es un marco de presentación ligero y muy fácil de probar que (como las aplicaciones basadas en Web Forms) se integra con las características de ASP.NET existentes, tales como páginas maestras y la autenticación basada en pertenencia. El marco de MVC se define en el espacio de nombres de System.Web.Mvc y es una parte admitida fundamental del espacio de nombres de System.Web.
+                  <br>
+                  <br>
+                  <center>
+                    <img width="800px" height="400px"  src="../IMG/MVC.jpg">
+                </center>
+                <br>
+                El marco de MVC incluye los siguientes componentes:
+                <ol>
+                  <li>Modelo: Los objetos modelo son las partes de la aplicación que implementan la lógica del dominio de datos de la aplicación. A menudo, los objetos modelo recuperan y almacenan el estado del modelo en una base de datos. </li>
+                  <li>Vista: Las vistas son los componentes que muestra la interfaz de usuario (IU) de la aplicación. Normalmente, esta interfaz de usuario se crea a partir de los datos del modelo. </li>
+                  <li>Controlador: Los controladores son los componentes que controlan la interacción del usuario, trabajan con el modelo y, en último término, seleccionan una vista para representar la interfaz de usuario.</li>
+                </ol>
 
-                      Las versiones solo de Windows de ASP.NET, que existían antes de ASP.NET Core, normalmente se conocen como ASP.NET. La mayor parte de la innovación se produce en ASP.NET Core, pero otras versiones siguen recibiendo actualizaciones 
-                      secundarias y correcciones de errores.</p>
-                      <br>
-                      <br>
-                    <h5>Blazor y Razor</h5>
+                <br>
+
+                </div>
+                <br>
+                  <h4 class="Subtairols">Blazor y Razor</h4>
                     <p>Blazor</p>
                   
                     Blazor es un marco web de front-end de .NET que admite la representación del lado servidor y la interactividad del cliente en un único modelo de programación:
@@ -507,11 +755,20 @@
                     Razor es una sintaxis de marcado que permite incrustar código basado en servidor (Visual Basic y C#) en páginas web.
 
                     El código basado en servidor puede crear contenido web dinámico sobre la marcha, mientras que una página web se escribe en el navegador. Cuando se llama a una página web, el servidor ejecuta el comando código basado en servidor dentro de la página antes de devolver la página al navegador. Al ejecutarse en el servidor, el código puede realizar tareas complejas, como acceder a Bases.
-                    
-                    <h5>Signal R</h5>
+                    <br>
+                    <br>
+                <div class="infocita">
+                    <h4 class="Subtairols">Signal R</h4>
+                    SignalR de ASP.NET es una biblioteca para los desarrolladores de ASP.NET que simplifica el proceso de agregar funcionalidad web en tiempo real a las aplicaciones. La funcionalidad web en tiempo real es la capacidad de disponer de contenidos de inserción de código de servidor en clientes conectados al instante, a medida que van estando disponibles, en lugar de que el servidor tenga que esperar que un cliente solicite nuevos datos.
+                    <br>
+                    <center>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gdPm5QdEAZQ?si=NxarkKoxRnL5-kuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                   <br><br>
-                    <h5>Tipos de aplicaciones web con .NET</h5>
+                  </center>
+                    <br>
+
+                  </div>
+                  <br>
+                    <h4 class="Subtairols">Tipos de aplicaciones web con .NET</h4>
                     En el desarrollo web con .NET, existen varios tipos de aplicaciones que se 
                     adaptan a diferentes necesidades y contextos. 
                 <ol>
@@ -545,12 +802,21 @@
                   </ol>
               <br>
               
-              
-              <h5>Frameworks</h5>
-              <br>
+              <div class="infocita">
+              <h4 class="Subtairols">Frameworks</h4>
+              <ul>
+                <li>ASP.NET Web Forms</li>
+                <li>ASP.NET MVC (Model-View-Controller)</li>
+                <li>ASP.NET Core</li>
+                <li>Blazor</li>
+                <li>Entity Framework (Mapeo objeto-relacional)</li>
+                <li>Razor</li>
+              </ul>
               <center>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fuTDzzarQGg?si=ZZaSm-9yf4g2NE2m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </center>
+
+            </div>
             </div>
         
               <!-- Modal footer -->
@@ -578,7 +844,7 @@
     </body>
     <br> 
       <footer>
-        <p>&copy; 2024 UrbanUtopía. Todos los derechos reservados.</p>
+        <p>&copy; 2024 InnovaTech. Todos los derechos reservados.</p>
       </footer>
 
 </html>
